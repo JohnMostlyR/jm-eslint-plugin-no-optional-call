@@ -23,7 +23,7 @@
     "update:eslint-docs": "eslint-doc-generator"
   },
   "devDependencies": {
-    "eslint": "^8.39.0",
+    "eslint": "^10.0.0",
     "eslint-doc-generator": "^1.4.3",
     "eslint-plugin-eslint-plugin": "^5.0.0",
     "eslint-plugin-n": "^15.7.0",
@@ -34,6 +34,6 @@
     "node": "^14.17.0 || ^16.0.0 || >= 18.0.0"
   },
   "peerDependencies": {
-    "eslint": "^8"
+    "eslint": "^8 || ^10.0.0"
   }
 }
